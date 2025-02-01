@@ -16,6 +16,8 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 - <b>Windows 11</b> (24H2)
 - <b>VirtualBox</b> (7.1.6)
+- <b>Ubuntu</b> (24.04.1 LTS)
+- <b>pfSense</b> (Version 2.7.2)
 
 <h2>Program walk-through:</h2>
 
