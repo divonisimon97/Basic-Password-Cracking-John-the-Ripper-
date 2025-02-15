@@ -15,28 +15,20 @@ In this project, I focus on a password cracking lab using John the Ripper. The g
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Create a SHA-512 hash of a weak password (starburst).: <br/>
-<img src="https://i.imgur.com/4x8eBWc.png" height="80%" width="80%" alt="Creating a SHA-512 hash"/>
+Create a MD5-crypt hash of a weak password (starburst).: <br/>
+<img src="https://i.imgur.com/4x8eBWc.png" height="80%" width="80%" alt="Creating a MD5-crypt hash"/>
 <br />
 <br />
-Save the generated hash into a file named fake_hashes.txt: <br/>
+Save the MD5-crypt hash into a file named fake_hashes.txt: <br/>
 <img src="https://i.imgur.com/QuDGxwL.png" height="80%" width="80%" alt="Saving the generated hash"/>
 <br />
 <br />
-Launch the Website & Enter Login Info: <br/>
-<img src="https://i.imgur.com/inuqTYk.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
+Run John the Ripper with the RockYou wordlist: <br/>
+<img src="https://i.imgur.com/Kg25VVo.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
 <br />
 <br />
-Filter and Inspect HTTP Traffic:  <br/>
-<img src="https://i.imgur.com/KTEkYrf.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
-<br />
-<br />
-Locate HTTP POST request: <br/>
-<img src="https://i.imgur.com/baJPWiA.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
-<br />
-<br />
-Open HTML Form URL Encoded & Extract Login Credentials:  <br/>
-<img src="https://i.imgur.com/RLhXII5.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
+Manually View John’s Pot File (optional):  <br/>
+<img src="https://i.imgur.com/zHH23el.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
 <br />
 <br />
 </p>
