@@ -16,19 +16,19 @@ In this project, I focus on a password cracking lab using John the Ripper. The g
 
 <p align="center">
 Create a MD5-crypt hash of a weak password (starburst).: <br/>
-<img src="https://i.imgur.com/4x8eBWc.png" height="80%" width="80%" alt="Creating a MD5-crypt hash"/>
+<img src="https://i.imgur.com/br8M8TJ.png" height="80%" width="80%" alt="Creating a MD5-crypt hash"/>
 <br />
 <br />
 Save the MD5-crypt hash into a file named fake_hashes.txt: <br/>
-<img src="https://i.imgur.com/QuDGxwL.png" height="80%" width="80%" alt="Saving the generated hash"/>
+<img src="https://i.imgur.com/11IfxkN.png" height="80%" width="80%" alt="Saving the generated hash"/>
 <br />
 <br />
 Run John the Ripper with the RockYou wordlist: <br/>
-<img src="https://i.imgur.com/Kg25VVo.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
+<img src="https://i.imgur.com/BsSboBx.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
 <br />
 <br />
 Manually View John’s Pot File (optional):  <br/>
-<img src="https://i.imgur.com/zHH23el.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
+<img src="https://i.imgur.com/M6KvCpr.png" height="80%" width="80%" alt="Analyzing HTTP Traffic"/>
 <br />
 <br />
 </p>
